@@ -1,0 +1,96 @@
+body {
+    background: url('../images/bd.jpg');
+}
+
+#pagina {
+    background: #FFF;
+    width: 900px;
+    margin: 0px auto;
+    min-height: 300px;
+    height: auto;
+}
+
+#logo {
+    background: url('../images/logo.jpg');
+    width: 318px;
+    height: 159px;
+}
+
+nav {
+    background: black;
+    color: aliceblue;
+    height: 50px;
+    font-size: 20pt;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0px 0px;
+}
+
+nav ul li:hover {
+    font-weight: bolder;
+}
+
+#inicio:hover {
+    background: blue;
+}
+
+#mision:hover {
+    background: yellow;
+}
+
+#vision:hover {
+    background: green;
+}
+
+#contacto:hover {
+    background: red;
+}
+
+.btn-buscar:hover {
+    font-weight: bolder;
+    background: yellowgreen;
+}
+
+.inpt-buscar:hover {
+    background: #8B8D7E;
+}
+
+nav ul li {
+    background: black;
+    display: inline-block;
+    height: 40px;
+    padding: 5px;
+    line-height: 40px;
+    color: #FFF;
+    margin: 0px 20px 0px 0px;
+}
+
+.inpt-buscar {
+    margin: 0px 0px 0px 32px;
+    position: absolute;
+    height: 48px;
+    padding-left: 10px;
+    background: #4E4446;
+    border: none;
+    color: #F7E6E8;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn-buscar {
+    position: absolute;
+    margin: 0px 0px 0px 173px;
+    background: black;
+    width: 35px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#buscador {
+    position: absolute;
+    margin: -70px 00px 0px 632px;
+    padding: 20px;
+}
